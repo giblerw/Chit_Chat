@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>867980628521-qpdfalq6al1n1s0qjj1p78j1qan53u2q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.867980628521-qpdfalq6al1n1s0qjj1p78j1qan53u2q</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBCBRbqw0zulSWPDOVjhcex4e_innHgyR8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>867980628521</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.westongibler</string>
+	<key>PROJECT_ID</key>
+	<string>chit-chat-6fce2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chit-chat-6fce2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:867980628521:ios:6550172f754a0a64</string>
+	<key>DATABASE_URL</key>
+	<string>https://chit-chat-6fce2.firebaseio.com</string>
+</dict>
+</plist>
