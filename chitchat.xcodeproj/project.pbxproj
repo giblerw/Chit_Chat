@@ -25,6 +25,8 @@
 		582F861E217A7893002E1A04 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F861D217A7893002E1A04 /* UIViewExt.swift */; };
 		582F8620217A86D2002E1A04 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F861F217A86D2002E1A04 /* FeedCell.swift */; };
 		582F8624217A88BE002E1A04 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F8623217A88BE002E1A04 /* Message.swift */; };
+		582F8626217AB44E002E1A04 /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F8625217AB44E002E1A04 /* CreateGroupVC.swift */; };
+		582F8628217AC14B002E1A04 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F8627217AC14B002E1A04 /* UserCell.swift */; };
 		5999D5200D58220A36FE804D /* Pods_chitchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704DE0C9D82DC95CB117B18C /* Pods_chitchat.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,8 @@
 		582F861D217A7893002E1A04 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		582F861F217A86D2002E1A04 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		582F8623217A88BE002E1A04 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		582F8625217AB44E002E1A04 /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
+		582F8627217AC14B002E1A04 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		704DE0C9D82DC95CB117B18C /* Pods_chitchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chitchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7009BE2AE17D412F106FA2C /* Pods-chitchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chitchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-chitchat/Pods-chitchat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +123,7 @@
 				5814EF71216C27BC0049F565 /* LoginVC.swift */,
 				582F8619217A6DAC002E1A04 /* MeVC.swift */,
 				582F861B217A7390002E1A04 /* CreatePostVC.swift */,
+				582F8625217AB44E002E1A04 /* CreateGroupVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 				5814EF73216C281C0049F565 /* InsetTextField.swift */,
 				5814EF75216C2DA40049F565 /* ShadowView.swift */,
 				582F861F217A86D2002E1A04 /* FeedCell.swift */,
+				582F8627217AC14B002E1A04 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -302,6 +308,8 @@
 				5814EF72216C27BC0049F565 /* LoginVC.swift in Sources */,
 				5814EF78216C2EF50049F565 /* AuthService.swift in Sources */,
 				5814EF53216C183D0049F565 /* AppDelegate.swift in Sources */,
+				582F8628217AC14B002E1A04 /* UserCell.swift in Sources */,
+				582F8626217AB44E002E1A04 /* CreateGroupVC.swift in Sources */,
 				5814EF76216C2DA40049F565 /* ShadowView.swift in Sources */,
 				582F861C217A7390002E1A04 /* CreatePostVC.swift in Sources */,
 				5814EF55216C183D0049F565 /* FeedVc.swift in Sources */,
