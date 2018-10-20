@@ -181,12 +181,12 @@
                                     <constraint firstAttribute="width" constant="60" id="uOx-Cy-IDI"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@chitchat.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4C0-SM-wq2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@chitchat.com" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4C0-SM-wq2">
                                 <rect key="frame" x="100" y="151.66666666666666" width="275" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="a9l-A6-6Ur"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
                                 <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -292,7 +292,7 @@
                                             <constraint firstAttribute="height" constant="130" id="fwc-Ke-sbD"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="westongibler@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwJ-Ct-FDp">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@chitchat.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwJ-Ct-FDp">
                                         <rect key="frame" x="50" y="180" width="275" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="Q8J-lD-rnJ"/>
@@ -521,7 +521,7 @@
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="rQM-BE-oOy"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="11"/>
-                                                <color key="textColor" red="0.56469356459999998" green="1" blue="0.29835147709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="line" placeholder="Add a group title..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PL8-JJ-cEE" customClass="InsetTextField" customModule="chitchat" customModuleProvider="target">
@@ -541,7 +541,7 @@
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="6O0-km-WXw"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="11"/>
-                                                <color key="textColor" red="0.56469356459999998" green="1" blue="0.29835147709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="line" placeholder="Add a group description..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mU9-gp-8XJ" customClass="InsetTextField" customModule="chitchat" customModuleProvider="target">
@@ -558,7 +558,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_add people to your group" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XhG-pi-Kuh">
                                                 <rect key="frame" x="52" y="150" width="271" height="21"/>
                                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
-                                                <color key="textColor" red="0.56469356459999998" green="1" blue="0.29835147709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter an email to search..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J0O-6Y-6js" customClass="InsetTextField" customModule="chitchat" customModuleProvider="target">
@@ -600,7 +600,7 @@
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@chitchat.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xlt-qq-dVl">
                                                             <rect key="frame" x="70" y="22.333333333333329" width="247" height="20"/>
                                                             <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
-                                                            <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <color key="textColor" red="0.56469356459999998" green="1" blue="0.29835147709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whiteCheckmark" translatesAutoresizingMaskIntoConstraints="NO" id="GXD-Tg-nTR">
@@ -692,9 +692,9 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ljI-p8-zRh">
                                         <rect key="frame" x="20" y="20" width="303" height="263"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLV-ez-E5U">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_authentication" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLV-ez-E5U">
                                                 <rect key="frame" x="0.0" y="0.0" width="303" height="58"/>
-                                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="21"/>
                                                 <color key="textColor" red="0.015686274509803921" green="0.6705882352941176" blue="0.77254901960784317" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -730,6 +730,7 @@
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkQ-CB-R8X">
                                         <rect key="frame" x="20" y="283" width="303" height="40"/>
+                                        <color key="backgroundColor" red="0.35597121720000002" green="0.38399109240000001" blue="0.40901100639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="3h7-Wy-Ibn"/>
                                         </constraints>
@@ -742,7 +743,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.16364609771573602" green="0.16364609771573602" blue="0.16364609771573602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.062947757542133331" green="0.13914996385574341" blue="0.23463213443756104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="zkQ-CB-R8X" secondAttribute="bottom" constant="20" id="2Fx-rU-Neu"/>
                                     <constraint firstItem="ljI-p8-zRh" firstAttribute="leading" secondItem="Brt-va-zvL" secondAttribute="leading" constant="20" id="3Gw-vU-7On"/>
@@ -831,13 +832,15 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="5KF-t4-Mcc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
-                                <state key="normal" title="SIGN IN"/>
+                                <state key="normal" title="ACCESS">
+                                    <color key="titleColor" red="0.56469356459999998" green="1" blue="0.29835147709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="signinButtonPressed:" destination="nrl-Za-YSD" eventType="touchUpInside" id="0Yt-M0-S1C"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.21319619007870341" green="0.2469475982027978" blue="0.26191703680203049" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Uwd-gH-ZbH" firstAttribute="leading" secondItem="AVs-j4-5vu" secondAttribute="leading" constant="30" id="9tm-tR-LM3"/>
                             <constraint firstItem="Uwd-gH-ZbH" firstAttribute="top" secondItem="AVs-j4-5vu" secondAttribute="top" id="MdO-Lf-sxg"/>
